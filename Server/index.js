@@ -47,7 +47,7 @@ const resolvers = {
   },
   Course: {
     teacher: (parent) => teachers.find((teacher) => teacher.id === parent.teacher),
-  },
+  }, 
 };
 
 
